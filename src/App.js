@@ -8,8 +8,11 @@ import Whatwe from './Components/Whatwe/Whatwe';
 function App() {
   return (
     <div >
-      <Navbar></Navbar>
-      <Florence></Florence>
+      <div className="bg2">
+        <Navbar></Navbar>
+        <Florence></Florence>
+      </div>
+
       <Whatwe></Whatwe>
       <StayProject></StayProject>
       <Achievenments></Achievenments>

@@ -8,7 +8,7 @@ const Achievenments = () => {
         <div style={{backgroundColor: '#FAFFFD'}}  className="pt-3 pl-5 pr-5 pb-5">
             <div className="row pl-5 pt-5 d-flex align-items-center">
                 <div className="col-md-5 ">
-                <h1 className="achievenments pt-2">Our Achievenments</h1>
+                <h1 className="achievenments pt-2" style={{ fontFamily: 'Yeseva One' }} >Our Achievenments</h1>
                     <p className="lorem20 pt-3">It is a long established fact that a reader will be distracted by 
                     <span> the readable content of a lpaage when looking at its layout. The</span>
                     <span> point of using Lorem ipsum is thaat it has more-or-less normal</span>

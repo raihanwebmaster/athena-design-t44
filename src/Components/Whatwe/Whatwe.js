@@ -11,7 +11,7 @@ const Whatwe = () => {
         <div style={{ backgroundColor: '#FAFFFD' }} className="pt-5 pb-5  ">
             <div className="bg-string">
                 <div className="pt-5" style={{ textAlign: 'center' }}>
-                    <h1 className="what">What we do</h1>
+                    <h1 className="what" style={{ fontFamily: 'Yeseva One' }} >What we do</h1>
                     <p className="what-focus">Our main focus is to make the User Experience very <span> simple and easy.Simplicity is our Strength.</span></p>
                 </div>
                 <div className="pl-5 pr-5 pt-2">

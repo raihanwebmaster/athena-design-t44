@@ -8,7 +8,7 @@ const StayProject = () => {
                     <img className="img20 pl-3" style={{width:"85%"}} src={img20} alt=""/>
                </div>
                <div className="col-md-6 pl-5 ">
-                    <h1 className="stay">Stay Running &
+                    <h1 className="stay" style={{ fontFamily: 'Yeseva One' }} >Stay Running &
                     <span> project</span>
                     </h1>
                     <p className="lorem20 pt-3">It is a long established fact that a reader will be distracted by the 

@@ -4,11 +4,11 @@ import img16 from '../../Illustration/16 [Converted]@2x.png';
 
 const Florence = () => {
     return (
-        <div className="pb-5 bg2">
+        <div className="pb-5 bg">
             <div className="container">
                 <div className="row  d-flex align-items-center ">
                     <div className="col-md-6 ">
-                        <h1 className="florence">Florence
+                        <h1 style={{ fontFamily: 'Yeseva One' }} className="florence">Florence
                     <span> agency</span>
                         </h1>
                         <p className="lorem20 pt-3">Lorem Ipsum has been the industry's standard dummy text even

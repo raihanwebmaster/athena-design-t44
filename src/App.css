@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 /* navbar component */
 
 .logo {
@@ -91,12 +92,17 @@
     background-repeat: no-repeat;
 }
 
-/* .bg2 {
+.bg {
+    background-image: url(./Illustration/dot.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.bg2 {
     background-image: url(./Illustration/Group\ 46@2x.png);
     background-repeat: no-repeat;
     background-position: top right;
-    height: 80%;
-} */
+}
 
 /* Achievements component */
 
@@ -122,7 +128,7 @@
 }
 
 .achivenments-card:hover {
-    background: linear-gradient(45deg,#009EFD ,#2AF598 );
+    background: linear-gradient(45deg, #009EFD, #2AF598);
     border-radius: 0px 65px 0px 65px;
     width: 340px;
     ;
