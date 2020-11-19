@@ -1,5 +1,7 @@
 import './App.css';
 import Achievenments from './Components/Achievenments/Achievenments';
+import DedicatedTeam from './Components/DedicatedTeam/DedicatedTeam';
+import DesignSearch from './Components/DesignSearch/DesignSearch';
 import Florence from './Components/Florence/Florence';
 import Navbar from './Components/Navbar/Navbar';
 import StayProject from './Components/StayProject/StayProject';
@@ -13,6 +15,8 @@ function App() {
       <Whatwe></Whatwe>
       <StayProject></StayProject>
       <Achievenments></Achievenments>
+      <DedicatedTeam></DedicatedTeam>
+      <DesignSearch></DesignSearch>
     </div>
   );
 }
