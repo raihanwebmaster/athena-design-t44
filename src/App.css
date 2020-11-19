@@ -84,7 +84,8 @@
     background-image: url('https://raw.githubusercontent.com/moshiuzzaman/athena-design-agency/main/src/images/wave.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position-y: 100px, center;
+    background-position-x: -160px, center
 }
 
 .bg1 {
@@ -157,7 +158,37 @@
     padding-top: 30px;
 }
 
-@media screen and (max-width: 768px) {
+/* DedicatedTeam components */
+.order{
+    background:white;
+    width: 363px;
+    height: 650px;
+    box-shadow: 2px 0 15px -4px  #c6d6d0, -2px 0 8px -4px #c6d6d0;
+}
+.order:hover{
+    border:4px solid #3CEDCE ;
+    border-radius: 7px;
+}
+.block{
+    display: none;
+}
+.order:hover .block{
+    display: inline;
+}
+.team{
+    padding-left: 65px;
+}
+hr{
+    border-top: 2px solid  #3CEDCE; 
+}
+.order:hover hr{
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+
+
+
+@media screen and (max-width: 768px){
     .navbar-collapse {
         background: #dff9fb;
         padding: 0 20px 20px 20px;
@@ -204,6 +235,31 @@
     .achievenments {
         font-size: 38px;
     }
+    .team{
+        padding-left: 0px;
+    }
+    .order-main{
+        padding-left: 28px !important;
+    }
+    .res{
+        font-weight: bold;
+    }
+    .get span{
+        display: block;
+        padding-top: 15px;
+    }
+    .get{
+        font-weight: bold;
+        font-size: 55px;
+    }
+    .latest span{
+        display: block;
+        padding-top: 7px;
+    }
+    .bg-string {
+        background-image: none;
+    }
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -249,4 +305,27 @@
     .achievenments {
         font-size: 35px;
     }
+    .team{
+        padding-left: 0px;
+    }
+    .res{
+        font-weight: bold;
+    }
+    .get span{
+        display: block;
+        padding-top: 15px;
+    }
+    .get{
+        font-weight: bold;
+        font-size: 55px;
+    }
+    .latest span{
+        display: block;
+        padding-top: 7px;
+    }
+    .bg-string {
+        background-image: none;
+    }
+    
+    
 }

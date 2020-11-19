@@ -5,6 +5,7 @@ import logo1 from '../../Illustration/16 [Converted]@2x.png';
 const Navbar = () => {
   return (
     <div className="pt-3 pl-5 pr-5 pb-5 bg1">
+      <div className="pr-5 pl-5">
       <nav class="navbar navbar-expand-lg  navbar-light bg-transparent mt-3">
         <a class="navbar-brand" href="#"> <img className="logo" src={logo} alt="" /> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +36,7 @@ const Navbar = () => {
 
         </div>
       </nav>
+      </div>
     </div>
   );
 };
