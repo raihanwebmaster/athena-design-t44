@@ -1,38 +1,204 @@
-.App {
-  text-align: center;
+/* navbar component */
+.logo{
+    width: 120px;
+}
+.button-us{
+    background: linear-gradient(-70deg,#009EFD,#2AF598);
+    border-radius: 22px 0 22px 0;
+    width: 140px;
+    height: 46px;
+    color: white !important;
+    text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-light .navbar-nav .nav-item .nav-link:active{
+    color: #2e86de;
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    color: #2e86de;
+}
+.navbar-light .navbar-toggler{
+    border:none;
+    border-radius: 0;
+    outline: none;
+}
+.navbar-light .navbar-toggler:active{
+    border:2px solid #2e86de ;
+    border-radius: 5px;
+}
+/* Florence component */
+.button-see{
+    border:none;
+}
+.button-see:focus{
+    outline: none;
+}
+.lorem20{
+    color:grey;
+    line-height: 25px;
+}
+.lorem20 span{
+    display: block;
+}
+.florence{
+    font-size: 70px;
+}
+.florence span{
+    display: block;
+}
+/* Whatwe component */
+.what-focus span{
+    display: block;
+}
+.what-focus{
+    color: grey;
+}
+.desing span{
+    display: block;
+}
+.hover:hover{
+    background-color: white;
+    border-radius: 65px 0 65px 0;
+    box-shadow: 12px 0 15px -4px  #6cd3a8, -12px 0 8px -4px  #6cd3a8;
+}
+/* Achievements component */
+.happy{
+    filter: invert( 50%);
+}
+.achivenments-card:hover .happy{
+    filter:brightness(100);
+}
+.achivenments-card-2:hover .happy{
+    filter:brightness(100);
+}
+.achivenments-card{
+    background:white;
+    padding: 25px;
+    border-radius: 0px 65px 0px 65px;
+    width: 340px;
+    color: gray;
+    box-shadow: 12px 0 15px -4px  #ccf0e1, -12px 0 8px -4px  #ccf0e1;
+}
+.achivenments-card:hover{
+    background: linear-gradient(70deg,#00d2d3,#2e86de);
+    border-radius: 0px 65px 0px 65px;
+    width: 340px;;
+    color:white;
+    box-shadow: 12px 0 15px -4px  #ccf0e1, -12px 0 8px -4px  #ccf0e1;
+}
+.achivenments-card-2{
+    background:white;
+    padding: 25px;
+    border-radius: 65px 0px 65px 0px;
+    width: 340px;
+    color: gray;
+    box-shadow: 12px 0 15px -4px  #ccf0e1, -12px 0 8px -4px  #ccf0e1;
+}
+.achivenments-card-2:hover{
+    background: linear-gradient(70deg,#00d2d3,#2e86de);
+    border-radius: 65px 0px 65px 0px;
+    width: 340px;
+    color:white;
+    box-shadow: 12px 0 15px -4px  #ccf0e1, -12px 0 8px -4px  #ccf0e1;
+}
+.card-it-2{
+    padding-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+@media screen and (max-width: 768px){
+    .navbar-collapse {
+        background: #dff9fb;
+        padding: 0 20px 20px 20px;
+        margin-top: 15px;
+    }
+    .img16{
+        padding-top: 80px;
+    }
+    .florence span{
+        display: inline;
+    }
+    .florence{
+        font-size:65px;
+    }
+    .lorem20 span{
+        display: inline;
+    }
+    .lorem20{
+        line-height: 45px;
+        font-size: 20px;
+    }
+    .what{
+        font-size: 50px ;
+    }
+    .what-focus span{
+        display: inline;
+    }
+    .what-focus{
+        font-size: 25px;
+        padding: 15px;
+    }
+    .stay span{
+        display: block;
+    }
+    .stay{
+        padding-top: 70px;
+    }
+    .img20{
+        width: 100% !important;
+    }
+    .card-it{
+        padding-top: 30px;
+    }
+    .achievenments{
+        font-size: 38px ;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-width: 500px) {
+    .navbar-collapse {
+        background: #dff9fb;
+        padding: 0 20px 20px 20px;
+        margin-top: 15px;
+    }
+    .img16{
+        padding-top: 80px;
+    }
+    .florence span{
+        display: inline;
+    }
+    .florence{
+        font-size: 50px !important;
+    }
+    .lorem20 span{
+        display: inline;
+    }
+    .lorem20{
+        line-height: 38px;
+        font-size: 20px;
+    }
+    .what{
+        font-size: 50px ;
+    }
+    .what-focus span{
+        display: inline;
+    }
+    .stay span{
+        display: block;
+    }
+    .stay{
+        padding-top: 70px;
+    }
+    .img20{
+        width: 100% !important;
+    }
+    .card-it{
+        padding-top: 35px;
+    }
+    .achievenments{
+        font-size: 35px ;
+    }
+    
 }
