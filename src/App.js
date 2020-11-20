@@ -3,6 +3,7 @@ import Achievenments from './Components/Achievenments/Achievenments';
 import DedicatedTeam from './Components/DedicatedTeam/DedicatedTeam';
 import DesignSearch from './Components/DesignSearch/DesignSearch';
 import Florence from './Components/Florence/Florence';
+import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import StayProject from './Components/StayProject/StayProject';
 import Whatwe from './Components/Whatwe/Whatwe';
@@ -23,6 +24,7 @@ function App() {
         <DedicatedTeam></DedicatedTeam>
         <DesignSearch></DesignSearch>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -117,16 +117,6 @@
     background-position-x:-400%;
     background-position-y:290px;
     
-    
-}
-.bg4 {
-    background-image: url(./Illustration/Group\ 46@2x.png);
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-position-x:-400%;
-    background-position-y:290px;
-    z-index: -100;
-    
 }
 
 /* Achievements component */
@@ -190,7 +180,7 @@
     box-shadow: 2px 0 15px -4px  #c6d6d0, -2px 0 8px -4px #c6d6d0;
 }
 .order:hover{
-    outline:4px solid #3CEDCE ;
+    border:4px solid #3CEDCE ;
     border-radius: 7px;
 }
 .block{
@@ -206,7 +196,34 @@ hr{
     border-top: 2px solid  #3CEDCE; 
 }
 .order:hover hr{
-    border-top: 2px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+/* footer */
+#footer a{
+    color: #464646;
+}
+footer{
+    height: 200px;
+}
+.foterLogo{
+    margin-top: 10%;
+    height: 100px;
+}
+.Milions{
+    font-weight: 600;
+}
+.meno-link a{
+    color: black;
+}
+.footer-list-icon li{
+    list-style: none;
+    margin: 0 10px;
+    overflow: hidden;
+    color:#838585;
+}
+.icon{
+    font-size: 36px!important;
+    width: 30px;
 }
 
 
