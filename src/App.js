@@ -6,6 +6,7 @@ import Florence from './Components/Florence/Florence';
 import Navbar from './Components/Navbar/Navbar';
 import StayProject from './Components/StayProject/StayProject';
 import Whatwe from './Components/Whatwe/Whatwe';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Achievenments></Achievenments>
       <DedicatedTeam></DedicatedTeam>
       <DesignSearch></DesignSearch>
+      <Footer></Footer>
     </div>
   );
 }
