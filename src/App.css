@@ -91,18 +91,42 @@
 .bg1 {
     background-image: url(./Illustration/Group\ 45@2x.png);
     background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: -20%;
+    background-position-y: -245px;
 }
 
 .bg {
     background-image: url(./Illustration/dot.png);
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position-x: -70px;
+    background-position-y: 330px;
 }
 
 .bg2 {
     background-image: url(./Illustration/Group\ 46@2x.png);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-size: 73%;
+    background-position-x:204%;
+    background-position-y: -275px;
+}
+.bg3 {
+    background-image: url(./Illustration/Group\ 47@2x.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x:-400%;
+    background-position-y:290px;
+    
+    
+}
+.bg4 {
+    background-image: url(./Illustration/Group\ 46@2x.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x:-400%;
+    background-position-y:290px;
+    z-index: -100;
+    
 }
 
 /* Achievements component */
@@ -166,7 +190,7 @@
     box-shadow: 2px 0 15px -4px  #c6d6d0, -2px 0 8px -4px #c6d6d0;
 }
 .order:hover{
-    border:4px solid #3CEDCE ;
+    outline:4px solid #3CEDCE ;
     border-radius: 7px;
 }
 .block{
@@ -182,7 +206,7 @@ hr{
     border-top: 2px solid  #3CEDCE; 
 }
 .order:hover hr{
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 2px solid rgba(0,0,0,.1);
 }
 
 
@@ -250,13 +274,13 @@ hr{
     }
     .get{
         font-weight: bold;
-        font-size: 55px;
+        font-size: 50px;
     }
     .latest span{
         display: block;
         padding-top: 7px;
     }
-    .bg-string {
+    .bg-string, .bg ,.bg1, .bg2, .bg3 {
         background-image: none;
     }
     
@@ -317,15 +341,14 @@ hr{
     }
     .get{
         font-weight: bold;
-        font-size: 55px;
+        font-size: 50px;
     }
     .latest span{
         display: block;
         padding-top: 7px;
     }
-    .bg-string {
+    
+    .bg-string, .bg, .bg1, .bg2 ,.bg3 {
         background-image: none;
     }
-    
-    
 }

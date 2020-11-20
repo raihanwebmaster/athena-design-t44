@@ -4,9 +4,8 @@ import img16 from '../../Illustration/16 [Converted]@2x.png';
 
 const Florence = () => {
     return (
-        <div className="pb-5 bg">
-            <div className="container">
-                <div className="row  d-flex align-items-center ">
+        <div className="pt-3 pl-5 pr-5 pb-5 bg">
+                <div className="row  d-flex align-items-center pr-5 pl-5 ">
                     <div className="col-md-6 ">
                         <h1 style={{ fontFamily: 'Yeseva One' }} className="florence">Florence
                     <span> agency</span>
@@ -22,7 +21,6 @@ const Florence = () => {
                         <img style={{ width: "100%" }} src={img16} alt="" />
                     </div>
                 </div>
-            </div>
         </div>
     );
 };

@@ -17,9 +17,12 @@ function App() {
 
       <Whatwe></Whatwe>
       <StayProject></StayProject>
+     
+      <div className="bg3">
       <Achievenments></Achievenments>
-      <DedicatedTeam></DedicatedTeam>
-      <DesignSearch></DesignSearch>
+        <DedicatedTeam></DedicatedTeam>
+        <DesignSearch></DesignSearch>
+      </div>
     </div>
   );
 }
